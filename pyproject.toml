@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hosta-homework"
 version = "0.1.0"
-description = ""
+description = "Elliot Rivers's submission for the Hosta.ai interview task"
 authors = ["Elliot Rivers <elliot.j.rivers@gmail.com>"]
 readme = "README.md"
 

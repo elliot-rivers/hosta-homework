@@ -21,6 +21,8 @@ class FromDict:
             This mechanism also works if you over-specify the input dict;
                 Probably not good for a general data model, but for the sake of this submission,
                 `cls(**data)` is too naive in this way
+            `orjson` can serialize dataclasses but not deserialize them
+            Only using stdlib for the sake of this demo; demonstrate writing library code
 
         Usage: 
             @dataclasses.dataclass
@@ -37,6 +39,7 @@ class FromDict:
             Or find a 3rd-party library to just do this instead
         """
         def _from_dict_helper(cls, data):
+            """Try to build a FromDict object, or failing that, return a regular one"""
             try:
                 return cls.from_dict(data)
             except AttributeError:

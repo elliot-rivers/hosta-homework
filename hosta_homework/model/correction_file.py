@@ -76,5 +76,5 @@ class CorrectionFile:
 
     @property
     def num_images(self):
-        return len(self.image_keys)
+        return len(self._image_keys)
 

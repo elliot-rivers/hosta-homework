@@ -1,6 +1,7 @@
 """As I make assumptions about the dataset, make sure they're true
 
-And record them for posterity"""
+...and record them for posterity
+"""
 from collections import Counter
 
 from hosta_homework import data, model
@@ -23,3 +24,12 @@ def test_image_id_uniqueness():
 
     assert len(global_image_ids) == len(set(global_image_ids))
 
+
+def test_item_id_in_image_ids():
+    """Ensure that every item_id is in the list of imageIds for every ops_3d"""
+    room = model.Room(data.IMAGE_FILES)
+
+    for image in room.images:
+        for op_3d in image.ops_3d:
+            if op_3d.imageIds and op_3d.item_id:
+                assert str(op_3d.item_id) in op_3d.imageIds

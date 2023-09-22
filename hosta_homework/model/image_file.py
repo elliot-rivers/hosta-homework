@@ -171,7 +171,7 @@ class ImageFile(BaseModel):
             try:
                 correction = correction_file.corrections_by_id[id_key]
             except KeyError:
-                logging.info("Nothing to correct for id: %s", id_key)
+                logging.info("Nothing to correct for item_id, '%s'", id_key)
                 return
 
             ## Step 2: Correction.HostID -> ObjectId

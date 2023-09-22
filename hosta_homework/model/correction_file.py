@@ -64,7 +64,7 @@ class CorrectionFile:
             getattr(entry, id_): entry
             for id_ in self._image_keys
             for entry in self.data
-            if getattr(entry, id_) not in ignore_values
+            if getattr(entry, id_) not in ignore_values and entry.host_id
         }
 
         self.object_id_to_image_id = {

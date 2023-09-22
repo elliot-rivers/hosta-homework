@@ -87,7 +87,7 @@ After cloning, use `poetry install --with dev` to install dependencies in a virt
 Execute with 
 ```bash
 # Run the main module and print help message
-poetry run python3 -m host_homework --help
+poetry run python3 -m hosta_homework --help
 
 # Execute the pytests
 poetry run pytest

@@ -1,0 +1,185 @@
+INFO:root:Processing corrections for image file, '3d3fde25-fc47-47ad-bda4-0b438196045b.jpeg'
+INFO:root:Nothing to correct for item_id, '13'
+INFO:root:Nothing to correct for item_id, '14'
+INFO:root:Nothing to correct for item_id, '16'
+INFO:root:Nothing to correct for item_id, '17'
+INFO:root:Nothing to correct for item_id, '18'
+INFO:root:Nothing to correct for item_id, '19'
+INFO:root:Nothing to correct for item_id, '20'
+INFO:root:Nothing to correct for item_id, '21'
+WARNING:root:Cannot convert CSV host_id '1309765' to Image_ObjectId
+    (In processing item_id, '22')
+INFO:root:Nothing to correct for item_id, '23'
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831dac16-7584-11ec-819b-663ba29d671e
+    Op3D.item_id: 24
+    Op3D.parent_id: 831d4d3e-7584-11ec-819b-663ba29d671e
+    parent Host_ID: 1309015
+    parent Object_ID: 16
+
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831dada6-7584-11ec-819b-663ba29d671e
+    Op3D.item_id: 25
+    Op3D.parent_id: 831a631c-7584-11ec-8883-024c9a2c6118
+    parent Host_ID: 1308969
+    parent Object_ID: 3
+
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831daf18-7584-11ec-819b-663ba29d671e
+    Op3D.item_id: 26
+    Op3D.parent_id: 831d4d3e-7584-11ec-819b-663ba29d671e
+    parent Host_ID: 1309015
+    parent Object_ID: 16
+
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831db1c0-7584-11ec-819b-663ba29d671e
+    Op3D.item_id: 27
+    Op3D.parent_id: 831d4d3e-7584-11ec-819b-663ba29d671e
+    parent Host_ID: 1309015
+    parent Object_ID: 16
+
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831db4f4-7584-11ec-819b-663ba29d671e
+    Op3D.item_id: 28
+    Op3D.parent_id: 831d4d3e-7584-11ec-819b-663ba29d671e
+    parent Host_ID: 1309015
+    parent Object_ID: 16
+
+WARNING:root:Cannot convert CSV host_id '311' to Image_ObjectId
+    (In processing item_id, '29')
+WARNING:root:Cannot convert CSV host_id '311' to Image_ObjectId
+    (In processing item_id, '30')
+WARNING:root:Cannot convert CSV host_id '311' to Image_ObjectId
+    (In processing item_id, '31')
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831dc106-7584-11ec-819b-663ba29d671e
+    Op3D.item_id: 32
+    Op3D.parent_id: 831d4d3e-7584-11ec-819b-663ba29d671e
+    parent Host_ID: 1309015
+    parent Object_ID: 16
+
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831dc354-7584-11ec-819b-663ba29d671e
+    Op3D.item_id: 33
+    Op3D.parent_id: 831d4d3e-7584-11ec-819b-663ba29d671e
+    parent Host_ID: 1309015
+    parent Object_ID: 16
+
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831dc49e-7584-11ec-819b-663ba29d671e
+    Op3D.item_id: 34
+    Op3D.parent_id: 831d4d3e-7584-11ec-819b-663ba29d671e
+    parent Host_ID: 1309015
+    parent Object_ID: 16
+
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831dc5d4-7584-11ec-819b-663ba29d671e
+    Op3D.item_id: 35
+    Op3D.parent_id: 831d4d3e-7584-11ec-819b-663ba29d671e
+    parent Host_ID: 1309015
+    parent Object_ID: 16
+
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831dc70a-7584-11ec-819b-663ba29d671e
+    Op3D.item_id: 36
+    Op3D.parent_id: 831d4d3e-7584-11ec-819b-663ba29d671e
+    parent Host_ID: 1309015
+    parent Object_ID: 16
+
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831dc886-7584-11ec-819b-663ba29d671e
+    Op3D.item_id: 37
+    Op3D.parent_id: 831d4d3e-7584-11ec-819b-663ba29d671e
+    parent Host_ID: 1309015
+    parent Object_ID: 16
+
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831dca16-7584-11ec-819b-663ba29d671e
+    Op3D.item_id: 38
+    Op3D.parent_id: 831a631c-7584-11ec-8883-024c9a2c6118
+    parent Host_ID: 1308969
+    parent Object_ID: 3
+
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831dcb6a-7584-11ec-819b-663ba29d671e
+    Op3D.item_id: 39
+    Op3D.parent_id: 831a631c-7584-11ec-8883-024c9a2c6118
+    parent Host_ID: 1308969
+    parent Object_ID: 3
+
+INFO:root:Nothing to correct for item_id, '40'
+INFO:root:Nothing to correct for item_id, '41'
+WARNING:root:Cannot convert CSV host_id '311' to Image_ObjectId
+    (In processing item_id, '43')
+WARNING:root:Cannot convert CSV host_id '311' to Image_ObjectId
+    (In processing item_id, '44')
+INFO:root:Nothing to correct for item_id, '45'
+INFO:root:Processing corrections for image file, '763fdd40-9408-45bb-b532-3f90b5c7c5d1.jpeg'
+INFO:root:Nothing to correct for item_id, '1'
+INFO:root:Nothing to correct for item_id, '2'
+INFO:root:Nothing to correct for item_id, '3'
+INFO:root:Nothing to correct for item_id, '4'
+INFO:root:Nothing to correct for item_id, '5'
+INFO:root:Nothing to correct for item_id, '6'
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831a98fa-7584-11ec-8883-024c9a2c6118
+    Op3D.item_id: 7
+    Op3D.parent_id: 831a5872-7584-11ec-8883-024c9a2c6118
+    parent Host_ID: 1334624
+    parent Object_ID: 2
+
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831a9daa-7584-11ec-8883-024c9a2c6118
+    Op3D.item_id: 8
+    Op3D.parent_id: 831a3b8a-7584-11ec-8883-024c9a2c6118
+    parent Host_ID: 1308855
+    parent Object_ID: 1
+
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831a9f80-7584-11ec-8883-024c9a2c6118
+    Op3D.item_id: 9
+    Op3D.parent_id: 831a631c-7584-11ec-8883-024c9a2c6118
+    parent Host_ID: 1308969
+    parent Object_ID: 3
+
+WARNING:root:Cannot convert CSV host_id '311' to Image_ObjectId
+    (In processing item_id, '10')
+WARNING:root:Cannot convert CSV host_id '1309765' to Image_ObjectId
+    (In processing item_id, '11')
+INFO:root:Processing corrections for image file, 'b73070b3-7625-4975-872a-967b2297a458.jpeg'
+INFO:root:Nothing to correct for item_id, '47'
+INFO:root:Nothing to correct for item_id, '48'
+INFO:root:Nothing to correct for item_id, '49'
+INFO:root:Nothing to correct for item_id, '50'
+INFO:root:Nothing to correct for item_id, '51'
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831a98fa-7584-11ec-8883-024c9a2c6118
+    Op3D.item_id: 52
+    Op3D.parent_id: 831a5872-7584-11ec-8883-024c9a2c6118
+    parent Host_ID: 1334624
+    parent Object_ID: 2
+
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831a9f80-7584-11ec-8883-024c9a2c6118
+    Op3D.item_id: 53
+    Op3D.parent_id: 831a631c-7584-11ec-8883-024c9a2c6118
+    parent Host_ID: 1308969
+    parent Object_ID: 3
+
+INFO:root:Nothing to correct for item_id, '54'
+INFO:root:Successfully updated Op3D record: 
+    Op3D.unique_id: 831a9daa-7584-11ec-8883-024c9a2c6118
+    Op3D.item_id: 55
+    Op3D.parent_id: 831a3b8a-7584-11ec-8883-024c9a2c6118
+    parent Host_ID: 1308855
+    parent Object_ID: 1
+
+WARNING:root:Cannot convert CSV host_id '1309765' to Image_ObjectId
+    (In processing item_id, '56')
+WARNING:root:Cannot convert CSV host_id '311' to Image_ObjectId
+    (In processing item_id, '57')
+INFO:root:Nothing to correct for item_id, '58'
+INFO:root:Saving /home/elliot/workspace/para/projects/hosta-homework/data/out/3d3fde25-fc47-47ad-bda4-0b438196045b.json...
+INFO:root:Saving /home/elliot/workspace/para/projects/hosta-homework/data/out/763fdd40-9408-45bb-b532-3f90b5c7c5d1.json...
+INFO:root:Saving /home/elliot/workspace/para/projects/hosta-homework/data/out/b73070b3-7625-4975-872a-967b2297a458.json...
+INFO:root:19 ops_3d were updated to include a parent link

@@ -28,6 +28,10 @@ class ImageFile(BaseModel):
     ops_3d: List[FooOp3D | BarOp3D | ...]
 
 This would make the model much more robust and useful
+
+Note: I have opted to implement the correction-processing logic inside the
+      respective models for data locality and object-orientation. Though, the
+      transforms could easily be free functions, subject to institutional standard.
 """
 import logging
 from textwrap import dedent
@@ -135,8 +139,8 @@ class ImageFile(BaseModel):
             """Process corrections for this Op3D
 
             Parameters:
-                correction_file (CorrectionFile):
-                image_to_unique_id (dict[str, str]):
+                correction_file (CorrectionFile): parsed corrections from the CSV
+                image_to_unique_id (dict[str, str]): mapping of image IDs to respective unique_id
 
             Assumptions:
             
@@ -235,8 +239,8 @@ class ImageFile(BaseModel):
         Loop over ops_3d and delegate processing to its process_correction method
 
         Parameters:
-            correction_file (CorrectionFile):
-            image_to_unique_id (dict[str, str]):
+            correction_file (CorrectionFile): parsed corrections from the CSV
+            image_to_unique_id (dict[str, str]): mapping of image IDs to respective unique_id
         """
         logging.info("Processing corrections for image file, '%s'", self.image_info.file_name)
         for op_3d in self.ops_3d:

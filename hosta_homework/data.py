@@ -1,3 +1,4 @@
+"""Just some utility constants about where the data lives"""
 from pathlib import Path
 
 
@@ -9,6 +10,4 @@ IMAGE_FILES = [
     _data_dir / "b73070b3-7625-4975-872a-967b2297a458.json",
     ]
 
-
 CSV_FILE = _data_dir / "EXP_ObjectID_HostID.csv"
-

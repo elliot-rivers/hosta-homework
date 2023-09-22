@@ -47,7 +47,7 @@ class Room:
     def process_corrections(self, csv_file: PathLike):
         """Given a csv corrections file, process them into the contained images
 
-        It is assumed that the number of image object columns in the CSV file
+        It is required that the number of image object columns in the CSV file
         will equal the number of images that comprise the room.
 
         Parameters:
@@ -56,17 +56,25 @@ class Room:
         csv = CorrectionFile(csv_file)
 
         if csv.num_images != len(self.images):
-            raise ValueError(f"Correction file processed a different number of images ({csv.num_images}) than comprise this Room ({len(self.images)})!")
+            raise ValueError(f"Correction file ({csv_file}) processed a different number of images ({csv.num_images}) than comprise this Room ({len(self.images)})!")
 
         for image in self.images:
             image.process_corrections(csv, self.image_id_to_unique_id)
 
 
     def save_images(self, output_dir: PathLike, force: bool = False):
+        """Save out the output json data that we generated
+
+        Parameters:
+            output_dir (PathLike): a directory to put the data in
+            force (bool, optional): if true, clobber output data files if they already exist
+        """
         for image in self.images:
             out_filepath = (Path(output_dir) / image.image_info.file_name).with_suffix(".json")
+
             if out_filepath.exists() and not force:
                 raise ValueError(f"Desired output filepath {out_filepath} already exists and force==False")
+
             logging.info("Saving %s...", out_filepath)
             json_str = image.model_dump_json(exclude_unset=True, indent=2)
             with open(out_filepath, "w") as f:
